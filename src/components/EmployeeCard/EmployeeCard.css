@@ -1,0 +1,33 @@
+.card-container {
+    display: flex; /* Use flexbox for layout */
+    background-color: lightblue;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 12px, rgba(0, 0, 0, 0.23) 0px 6px 12px; /* Increased box shadow for depth */
+    padding: 10px;
+    max-width: 400px;
+    margin: 10px; /* Added margin for spacing between cards */
+}
+
+.image-container {
+    flex: 0 0 auto;
+    margin-right: 10px; /* Adjusted spacing between image and text */
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 120px; /* Increased max-width */
+    height: 120px; /* Increased height */
+    object-fit: cover; 
+    border-radius: 10%; /* Rounded image */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 1; 
+    justify-content: center;
+}
+
+.text-container h2 {
+    margin: 0; /* Remove default margin for headings */
+}

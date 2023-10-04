@@ -1,0 +1,11 @@
+.foot-container {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed; /* Change 'absolute' to 'fixed' */
+    bottom: 0;
+    width: 100%;
+    display: flex; /* Use flexbox for vertical alignment */
+    align-items: center;
+    justify-content: flex-start; /* Align content to the left */
+  }
